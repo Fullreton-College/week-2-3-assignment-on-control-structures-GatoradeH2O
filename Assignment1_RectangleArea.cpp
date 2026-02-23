@@ -1,15 +1,17 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
+
+
 int main()
 {
     double length_1, width_1, length_2, width_2;
     //input for first rectangle
     cout << "Enter the length and width of the first rectangle: ";
-    cin  >> length_1 >> width_1;
+    cin >> length_1 >> width_1;
 
     //input for second rectangle
-    cout <<"Enter the length and width of the second rectangle:";
-    cin  >> length_2 >> width_2;
+    cout << "Enter the length and width of the second rectangle: ";
+    cin >> length_2 >> width_2;
 
     //calculate areas
     double area_1 = length_1 * width_1;
